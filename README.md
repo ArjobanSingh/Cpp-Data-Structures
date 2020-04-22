@@ -1,8 +1,8 @@
-### Data Structures in C++
+# Data Structures in C++
 
-# Added ones are:
+## Added ones are:
 
-1. LinkedLists
-    i) Doubley Linked Lists
-2. Stack 
-    i) implementation with Resizable Arrays
+### LinkedLists
+    1) Doubley Linked Lists
+### Stack 
+    2) implementation with Resizable Arrays
