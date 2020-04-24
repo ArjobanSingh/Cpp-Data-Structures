@@ -125,7 +125,7 @@ template <class T>
 T LinkedList<T>::getElementAtPosition(int position)
 {
     // position is not out of range
-    if ( -1 < position < this->returnSize())
+    if ( position > -1 && position < this->returnSize())
     {
         Node *temp = head;
 
