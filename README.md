@@ -12,3 +12,5 @@
 ### Stack 
     1) implementation with Resizable Arrays
     2) implementation with Singly Linked List
+### Priority Queues:
+    1) Max priority queue with Resizable Arrays    
