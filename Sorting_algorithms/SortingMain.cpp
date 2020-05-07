@@ -1,5 +1,6 @@
 #include "MergeSort.hpp"
 #include "InsertionSort.hpp"
+#include "HeapSort.hpp"
 
 int main(){
     cout << "Starting method\n";
@@ -22,6 +23,16 @@ int main(){
     arr_size = sizeof(secondArr)/sizeof(secondArr[0]); 
     insertionSort(secondArr, arr_size);
     cout << "\nIt should sort now with InsertionSort\n";
+    for (int i = 0; i < arr_size; i++)
+    {
+        cout << testArr[i] << " ";
+    }
+
+    int thirdArr[] = {156, 234, 1, 10, 8, 4, 2, 99, 28, 689, 23, 5, 3};
+    arr_size = sizeof(thirdArr)/sizeof(thirdArr[0]); 
+    HeapSort<int> heap(thirdArr, arr_size);
+    heap.sort();
+    cout << "\nIt should sort now with HeapSort\n";
     for (int i = 0; i < arr_size; i++)
     {
         cout << testArr[i] << " ";

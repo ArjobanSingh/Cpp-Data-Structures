@@ -5,6 +5,7 @@
 ### Sorting Algorithms
     1) Insertion Sort - O(n^2)
     2) Merge Sort - O(n lg n)
+    3) Heap Sort - O(n lg n)
 
 ### LinkedLists
     1) Singly Linked List
